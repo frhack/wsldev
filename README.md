@@ -38,7 +38,7 @@ eval $(ssh-agent -s)
 ```
 
 ```shell
-ssh-add $HOME/.ssh/id_pasqualini
+ssh-add $HOME/.ssh/id_cognome
 ```
 
 Attenzione questa operazione andrà ripetuta ogni volta che prendete il computer e iniziate a lavorare su un progetto GITHUB.
@@ -56,12 +56,11 @@ mkdir /mnt/c/TPS/repository
 ```
 
 ```shell
-cd /mnt/c/TPS/repository
+git clone git@github.com:username/repository.git 
 ```
 
-
 ```shell
-git clone git@github.com:username/repository.git . 
+cd /mnt/c/TPS/repository
 ```
 
 ```shell
@@ -91,3 +90,22 @@ code .
 ```
 
 
+## testare il funzionamento
+
+Creare un file in in VSC con nome "test_cognome.txt" inserendo la parola "test" come contenuto.
+
+- Quindi aggiungere il file a GIT (cliccare su icona del ramo) quindi "+" sul file.
+- Committare inserendo un messaggio di commit.
+- aprire un terminale da VSC ed eseguire i comandi:
+
+```shell
+git push
+```
+
+```shell
+git pull
+```
+
+Andare su GITHUB e verificare che il file sia arrivato sul repository:
+
+https://github.com/username/repository
