@@ -52,7 +52,7 @@ mkdir /mnt/c/TPS
 ```
 
 ```shell
-mkdir /mnt/c/TPS/repository
+cd /mnt/c/TPS
 ```
 
 ```shell
