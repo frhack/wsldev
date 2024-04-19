@@ -5,6 +5,7 @@
 - avere un account GITHUB
 - avere installato WSL (wsl2) linux e una distribuzione di Linux (Ubuntu)
 - avere installato VSC con l'estensione WSL di Microsoft
+- avere installato git for windows https://git-scm.com/download/win
 
 
 ## configurazione SSH
