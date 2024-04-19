@@ -1,4 +1,4 @@
-### Istruzioni per sviluppare in WSL linux da Visual Studio Code in Windows
+# Istruzioni per sviluppare in WSL linux da Visual Studio Code in Windows
 
 ## prerequisiti
 
